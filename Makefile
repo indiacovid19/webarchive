@@ -5,7 +5,7 @@ readme:
 	echo >> README.tmp
 	ls -1d mohfw/* | while read -r path; \
 	do \
-		echo "- [$$path]($$path)" >> README.tmp; \
+		echo "- [$$path](https://indiacovid19.github.io/webarchive/$$path)"; \
 	done >> README.tmp
 	mv README.tmp README.md
 	cat README.md
