@@ -1,4 +1,8 @@
-all: readme
+all: update
+
+update: readme
+	git add .
+	git status
 
 readme:
 	sed '/<!-- .* automatically generated .* -->/q' README.md > README.tmp
