@@ -35,6 +35,7 @@ Archive
 - [mohfw/2020-04-02_1800](https://indiacovid19.github.io/webarchive/mohfw/2020-04-02_1800)
 - [mohfw/2020-04-03_1800](https://indiacovid19.github.io/webarchive/mohfw/2020-04-03_1800)
 - [mohfw/2020-04-04_1800](https://indiacovid19.github.io/webarchive/mohfw/2020-04-04_1800)
+- [mohfw/2020-04-05_1800](https://indiacovid19.github.io/webarchive/mohfw/2020-04-05_1800)
 - [pib/PIB1601095.pdf](https://indiacovid19.github.io/webarchive/pib/PIB1601095.pdf)
 - [pib/PIB1601169.pdf](https://indiacovid19.github.io/webarchive/pib/PIB1601169.pdf)
 - [pib/PIB1601625.pdf](https://indiacovid19.github.io/webarchive/pib/PIB1601625.pdf)
@@ -69,3 +70,5 @@ Archive
 - [pib/PIB1610784.pdf](https://indiacovid19.github.io/webarchive/pib/PIB1610784.pdf)
 - [pib/PIB1611125.pdf](https://indiacovid19.github.io/webarchive/pib/PIB1611125.pdf)
 - [pib/PIB1611137.pdf](https://indiacovid19.github.io/webarchive/pib/PIB1611137.pdf)
+- [pib/PIB1611406](https://indiacovid19.github.io/webarchive/pib/PIB1611406)
+- [pib/PIB1611416.pdf](https://indiacovid19.github.io/webarchive/pib/PIB1611416.pdf)
