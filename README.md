@@ -109,3 +109,5 @@ Archive
 - [pib/PIB1614031.pdf](https://indiacovid19.github.io/webarchive/pib/PIB1614031.pdf)
 - [pib/PIB1614366.pdf](https://indiacovid19.github.io/webarchive/pib/PIB1614366.pdf)
 - [pib/PIB1614407.pdf](https://indiacovid19.github.io/webarchive/pib/PIB1614407.pdf)
+- [pib/PIB1614770.pdf](https://indiacovid19.github.io/webarchive/pib/PIB1614770.pdf)
+- [pib/PIB1614775/](https://indiacovid19.github.io/webarchive/pib/PIB1614775/)
