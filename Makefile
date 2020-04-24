@@ -4,6 +4,10 @@ update: readme
 	git add .
 	git status
 
+push: update
+	git commit
+	git push origin master
+
 readme:
 	sed '/<!-- .* automatically generated .* -->/q' README.md > README.tmp
 	echo >> README.tmp
