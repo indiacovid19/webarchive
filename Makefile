@@ -3,7 +3,7 @@ all: push
 push: archive readme
 	git add .
 	git commit -F /tmp/commit.txt
-	git log -n
+	git log -n 1
 	git status
 	@echo
 	@echo Press enter to push repository
