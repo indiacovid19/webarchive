@@ -137,6 +137,8 @@ Archive
 - [mohfw/2020-06-23_0800/](https://indiacovid19.github.io/webarchive/mohfw/2020-06-23_0800/)
 - [mohfw/2020-06-29_0800/](https://indiacovid19.github.io/webarchive/mohfw/2020-06-29_0800/)
 - [mohfw/2020-06-30_0800/](https://indiacovid19.github.io/webarchive/mohfw/2020-06-30_0800/)
+- [mohfw/2020-07-01_0800/](https://indiacovid19.github.io/webarchive/mohfw/2020-07-01_0800/)
+- [mohfw/2020-07y-01_0800/](https://indiacovid19.github.io/webarchive/mohfw/2020-07y-01_0800/)
 - [pib/PIB1601095.pdf](https://indiacovid19.github.io/webarchive/pib/PIB1601095.pdf)
 - [pib/PIB1601169.pdf](https://indiacovid19.github.io/webarchive/pib/PIB1601169.pdf)
 - [pib/PIB1601625.pdf](https://indiacovid19.github.io/webarchive/pib/PIB1601625.pdf)
