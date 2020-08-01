@@ -18,7 +18,7 @@ archive:
 	date=$$(sed -n \
 	        's/.*as on.*\([0-9]\{2\}\)[[:space:]]\(.*\) \([0-9]\{4\}\).*\([0-9]\{2\}\):\([0-9]\{2\}\).*/\3-\2-\1 \4:\5/p' \
 	        "$(HOME)/Downloads/$(page).html" | head -n 1 | \
-	        sed 's/Jan/01/; s/Feb/02/; s/Mar/03/; s/Apr/04/; s/May/05/; s/June/06/; s/July/07/; s/Aug/08/; s/Sep/09/; s/Oct/10/; s/Nov/11/; s/Dec/12/'); \
+	        sed 's/Jan[a-z]*/01/; s/Feb[a-z]*/02/; s/Mar[a-z]*/03/; s/Apr[a-z]*/04/; s/May[a-z]*/05/; s/June[a-z]*/06/; s/July[a-z]*/07/; s/Aug[a-z]*/08/; s/Sep[a-z]*/09/; s/Oct[a-z]*/10/; s/Nov[a-z]*/11/; s/Dec[a-z]*/12/'); \
 	dir=$$(echo "$$date" | sed 's/ /_/; s/://'); \
 	mkdir -p "mohfw/$$dir"; \
 	echo "Add MoHFW archive for $$date" > /tmp/commit.txt
