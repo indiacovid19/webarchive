@@ -2,6 +2,10 @@ all: push
 
 push: archive readme
 	git add .
+	git status
+	@echo
+	@echo Press enter to commit
+	@read
 	git commit -F /tmp/commit.txt
 	git log -n 1
 	git status
@@ -21,11 +25,11 @@ archive:
 	        sed 's/Jan[a-z]*/01/; s/Feb[a-z]*/02/; s/Mar[a-z]*/03/; s/Apr[a-z]*/04/; s/May[a-z]*/05/; s/June[a-z]*/06/; s/July[a-z]*/07/; s/Aug[a-z]*/08/; s/Sep[a-z]*/09/; s/Oct[a-z]*/10/; s/Nov[a-z]*/11/; s/Dec[a-z]*/12/'); \
 	dir=$$(echo "$$date" | sed 's/ /_/; s/://'); \
 	mkdir -p "mohfw/$$dir"; \
-	echo "Add MoHFW archive for $$date" > /tmp/commit.txt
-	cat /tmp/commit.txt
-	@echo
-	@echo Press enter to confirm commit message.
-	@read
+	echo "Add MoHFW archive for $$date" > /tmp/commit.txt; \
+	cat /tmp/commit.txt; \
+	echo; \
+	echo Press enter to confirm commit message.; \
+	read; \
 	mv "$(HOME)/Downloads/$(page).html" "mohfw/$$dir/index.html"; \
 	mv "$(HOME)/Downloads/$(page)_files" "mohfw/$$dir/"; \
 	echo "Done"
