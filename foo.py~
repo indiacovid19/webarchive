@@ -1,0 +1,3 @@
+def gmdn(nums):
+    arithmetic_mean = float(sum(nums)) / len(nums)
+    geometric_mean = 
